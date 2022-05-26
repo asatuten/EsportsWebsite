@@ -33,17 +33,34 @@ a {
     padding: 0!important;
 }
 
-.transition-fade {
-    opacity: 1;
-    transition: 500ms;
-}
-
-html.is-animating .transition-fade {
-    opacity: 0;
-}
-
 .text-dark {
     font-size: 20px;
+}
+
+.opening-title {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 120px;
+    color: black;
+}
+
+.footer {
+    background-color: black;
+}
+
+.container-normal {
+    width: 75vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+.text-black {
+    color: black;
+    font-size: 30px;
 }
 
 /* Sticky footer styles
